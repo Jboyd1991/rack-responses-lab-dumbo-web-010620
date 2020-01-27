@@ -1,7 +1,7 @@
 class Application
  
 def call(time) 
-  time = Time.new(+12:00)
+  time = Time.new(12:00)
   
     if time < 12:00 
       "Good Morning!"
